@@ -14,20 +14,72 @@
     color: white;
     background-image: url(../media/pageheader-1920w.jpg);
 }
-span{
+.orange{
     color: #EB6C27;
 }
 
-.page_image{
+.page__image{
     width: 100%;
     height: auto;
     border-radius: 0px 0px 40px 0px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-top: 3em;
 }
 
+.page__image2{
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 0px 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 3em;
+}
+
+.page__image3 {
+    width: 320px;
+    height: 200px;
+    background: url(reference-zbrojnice.jpg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 3em;
+}
 .main {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.button{
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 17px;
+    color: #EB6C27;
+    border: #EB6C27;
+    flex: none;
+    border-style: dashed;
+}
+
+.page__header_text{
+    font-weight: lighter;
+}
+
+.button2{
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 17px;
+    color: white;
+    background: #EB6C27;
+    flex: none;
+    margin: 2em;
+}
+
+p{
+    margin-bottom: 2em;
 }
