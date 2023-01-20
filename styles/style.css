@@ -80,6 +80,24 @@
     margin: 2em;
 }
 
+.button3{
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 17px;
+    color: #EB6C27;
+    background: white;
+    flex: none;
+    margin: 2em;
+}
 p{
     margin-bottom: 2em;
+}
+
+footer{
+    background-color: #EB6C27;
+}
+.white_text{
+    color: white;
 }
