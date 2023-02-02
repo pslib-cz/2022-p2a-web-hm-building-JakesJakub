@@ -11,17 +11,30 @@
     <title>HM Building</title>
 </head>
 <body>
-    <nav>
-        <img src="../media/logo.png" alt=""></img>
-        <div><p>MENU</p></div>
-        <ul> 
-            <li><a href="./index.html">DOMŮ</a> </li>
-            <li><a href="#">SLUŽBY</a> </li>
-            <li><a href="#">REFERENCE</a> </li>
-            <li><a href="#">O NÁS</a> </li>
-            <li><a href="./contact.html">KONTAKT</a> </li>
-        </ul>
+    <nav class="navbar">
+        <a href="./index.html" class="navbar__logo"><img src="../media/logo.png" alt="logo" width="130px"></a>
+        <menu class="navbar__menu hamburger-menu-list navbar__menu--hidden">
+            <li class="nav-item">
+            <a class="nav-link" href="./index.html">DOMŮ</a>
+            <a class="nav-link" href="#">SLUŽBY</a>
+            <a class="nav-link" href="./references.html">REFERENCE</a>
+            <a class="nav-link" href="./about.html">O NÁS</a>
+            <a class="nav-link" href="./contact.html">KONTAKT</a>
+            </li>
+        </menu>
+        <div class="navbar__hamburger"><a class="hamburger-menu" href="javascript:void(0)">menu</a></div>
     </nav>
+        <script>
+        const hamburgerButtons = document.querySelectorAll(".hamburger-menu");
+        for (const btn of hamburgerButtons) {
+            btn.onclick = (event) => {
+            const menus = document.querySelectorAll(".hamburger-menu-list");
+            for (const menu of menus) {
+                menu.classList.toggle("navbar__menu--hidden");
+            }
+            }
+        }
+        </script>
     <div>
         <h1>O nás</h1>
     </div>
@@ -40,10 +53,10 @@
             <p><strong>Záruční doba</strong> na námi provedená díla se pohybuje od 24 do 60 měsíců.</p>
         </article>
     </main>
-    <footer>
+    <footer class="white_text centered_text">
         <h2>Plácneme si pro Váš projekt?</h2>
         <p>Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
-        <a href="./contact.html">Nezávazně poptat</a>
+        <a href="./contact.html" class="button3">Nezávazně poptat</a>
 
     </footer>
 </body>
