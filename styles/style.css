@@ -174,7 +174,7 @@
     }
 
     .button2{
-        padding: 10px 30px;
+        padding: 15px 35px;
         text-decoration: none;
         font-weight: 700;
         font-size: 1em;
@@ -189,19 +189,15 @@
         margin-bottom: 10px;
     }
     .button21{
-        padding: 10px 30px;
+        padding: 20px 40px;
         text-decoration: none;
         font-weight: 700;
         font-size: 1em;
         line-height: 17px;
         color: white;
         background: #EB6C27;
-        flex: none;
-        align-items: center;
-        text-align: center;
-        margin: auto;
-        display: grid;
         margin-bottom: 10px;
+        margin-top: 2em;
     }
 
     .button3{
@@ -294,7 +290,7 @@
     .icon {
         width: 2em;
         height: 2em;
-        background-color: var(#EB6C27);
+        background-color:#EB6C27;
         border-radius: 100%;
         display: flex;
         align-items: center;
@@ -308,6 +304,10 @@
         margin: 1em 0;
       }
 
+      .no_decoration{
+        text-decoration: none;
+        color: #EB6C27;
+      }
 }
 
 
