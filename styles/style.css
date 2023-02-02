@@ -40,7 +40,7 @@
         top: 7em;
         right: 1em;
         left: 1em;
-        background-color: var(#EB6C27);
+        background-color:#EB6C27;
         display: none;
         flex-direction: column;
         justify-content: center;
@@ -54,7 +54,7 @@
         height: 0;
         border-left: 14px solid transparent;
         border-right: 14px solid transparent;
-        border-bottom: 20px solid var(#EB6C27);
+        border-bottom: 20px solid #EB6C27;
         top: -20px;
         right: 0.5em;
         position: absolute;
@@ -69,7 +69,7 @@
       }
       
       .nav__item__link {
-        color: var(white);
+        color: white;
       }
       
       .nav__item__link--active {
