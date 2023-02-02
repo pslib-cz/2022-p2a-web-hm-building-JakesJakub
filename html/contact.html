@@ -40,24 +40,31 @@
     <main class="main">
         <h1>Kontaktujte nás</h1>
         <p>Zavolejte anebo nám napište... kvalitní komunikace je jeden z pilířů, na kterém stavíme.</p>
-        <p>+420 775 550 564</p>
-        <p>stavby@hm-building.cz</p>
-        <p>Křižanská 12, Liberec XXII-Horní Suchá</p>
+        <div class="contact">
+            <p>+420 775 550 564</p>
+            <p>stavby@hm-building.cz</p>
+            <p>Křižanská 12, Liberec XXII-Horní Suchá</p>
+        </div>
         <img src="../media/mapa.jpg" alt="" class="reference"></img>
 
         <h1>Nezávazná poptávka služeb</h1>
         <p>Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
-        <form action="/action_page.php">
-            <label for="fname">Jméno a příjmení</label><br>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">E-email</label><br>
-            <input type="text" id="lname" name="lname"><br><br>
-            <label for="lname">Telefon</label><br>
-            <input type="text" id="lname" name="lname"><br><br>
-            <label for="lname">Poptávaná služba</label><br>
-            <input type="text" id="lname" name="lname"><br><br>
-            <label for="lname">Poznámka</label><br>
-            <input type="text" id="lname" name="lname"><br><br>
-            <input type="submit" value="Odeslat nezávaznou poptávku" class="button2">
-          </form>
+        <form class="form">
+            <p><strong>Jméno a příjmení</strong></p>
+            <input type="text" class="form__item">
+            <p><strong>E-mail</strong></p>
+            <input type="email" class="form__item">
+            <p><strong>Telefon</strong></p>
+            <input type="text" class="form__item">
+            <p><strong>Poptávaná služba</strong></p>
+            <select class="form__item font1">
+                <option value="Novostavba">Novostavba</option>
+                <option value="Novostavba">Průmyslová stavba</option>
+                <option value="Novostavba">Rekonstrukce</option>
+                <option value="Novostavba">Komunikace a zpevněné plochy</option>
+              </select>
+            <p class="font2"><strong>Poznámka</strong></p>
+            <textarea rows="10" class="form__item"></textarea>
+            <button class="btn page__btn page__btn--filled font2">Odeslat nezávaznou poptávku</button>
+        </form>
     </main>
