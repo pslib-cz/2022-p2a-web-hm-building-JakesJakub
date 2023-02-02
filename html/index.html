@@ -10,38 +10,28 @@
     <link rel="stylesheet" href="../styles/style.css">
     <title>HM Building</title>
 </head>
-<body class="page">
-    
-<nav class="navbar ">
-    <a href="./index.html" class="navbar__logo"><img src="../media/logo.png" alt="logo" width="130px"></a>
-    <menu class="navbar__menu hamburger-menu-list navbar__menu--hidden">
-        <li class="nav-item">
-        <a class="nav-link" href="#">DOMŮ</a>
-        <a class="nav-link" href="#">SLUŽBY</a>
-        <a class="nav-link" href="./references.html">REFERENCE</a>
-        <a class="nav-link" href="./about.html">O NÁS</a>
-        <a class="nav-link" href="./contact.html">KONTAKT</a>
-        </li>
-    </menu>
-    <div class="navbar__hamburger"><a class="hamburger-menu" href="javascript:void(0)">menu</a></div>
-</nav>
-    <script>
-    const hamburgerButtons = document.querySelectorAll(".hamburger-menu");
-    for (const btn of hamburgerButtons) {
-        btn.onclick = (event) => {
-        const menus = document.querySelectorAll(".hamburger-menu-list");
-        for (const menu of menus) {
-            menu.classList.toggle("navbar__menu--hidden");
-        }
-        }
-    }
-    </script>
-
-    <div class="page__header">
-        <div></div>
-        <h1>HM Building.cz s.r.o. <br><span class="page__header_text">liberecká stavební společnost</span></h1>
-    </div> 
-
+<body>
+    <nav class="navbar">
+        <a href="./index.html">
+            <img class="logo" src="../media/logo.png" alt="logo">
+        </a>
+        <div class="hamburger">
+            <span>MENU</span>
+            <img src="../media/hamburger.svg" alt="hamburger">
+        </div>
+        <menu class="navbar__menu">
+            <li class="nav__item nav__item--active"><a class="nav__item__link" href="./index.html">DOMŮ</a></li>
+            <li class="nav__item"><a class="nav__item__link" href="./index.html">SLUŽBY</a></li>
+            <li class="nav__item"><a class="nav__item__link" href="./references.html">REFERENCE</a></li>
+            <li class="nav__item"><a class="nav__item__link" href="./about.html">O NÁS</a></li>
+            <li class="nav__item"><a class="nav__item__link" href="./contact.html">KONTAKT</a></li>
+        </menu>
+    </nav>
+    <header class="header bg-img">
+        <div class="header__body">
+            <h1 class="header__title">HM Building.cz s.r.o. <span class="header__description">liberecká stavební společnost</span></h1>
+        </div>
+    </header>
 
     <main class="main">
         <article>
@@ -129,7 +119,7 @@
             </div>
 
 
-            <a href="./references.html" class="button2">Více referencí</a>
+            <a href="./references.html" class="button21">Více referencí</a>
         </article>
     </main>
     <footer class="white_text centered_text">
@@ -138,5 +128,6 @@
         <a href="./contact.html" class="button3">Nezávazně poptat</a>
 
     </footer>
+    <script src="../styles/main.js"></script>
 </body>
 </html>
