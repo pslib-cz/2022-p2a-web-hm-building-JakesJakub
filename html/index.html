@@ -8,26 +8,27 @@
     <link rel="stylesheet" href="../media/">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/style.css">
-    <title>HM Building</title>
+    <link rel="stylesheet" href="../styles/desktop.css">
+    <title>HM Building | Domovská stránka</title>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="./index.html">
-            <img class="logo" src="../media/logo.png" alt="logo">
-        </a>
-        <div class="hamburger">
-            <span>MENU</span>
-            <img src="../media/hamburger.svg" alt="hamburger">
-        </div>
-        <menu class="navbar__menu">
-            <li class="nav__item nav__item--active"><a class="nav__item__link" href="./index.html">DOMŮ</a></li>
-            <li class="nav__item"><a class="nav__item__link" href="./index.html">SLUŽBY</a></li>
-            <li class="nav__item"><a class="nav__item__link" href="./references.html">REFERENCE</a></li>
-            <li class="nav__item"><a class="nav__item__link" href="./about.html">O NÁS</a></li>
-            <li class="nav__item"><a class="nav__item__link" href="./contact.html">KONTAKT</a></li>
-        </menu>
-    </nav>
     <header class="header bg-img">
+        <nav class="navbar">
+            <a href="./index.html">
+                <img class="logo" src="../media/logo.png" alt="logo">
+            </a>
+            <div class="hamburger">
+                <span>MENU</span>
+                <img src="../media/hamburger.svg" alt="hamburger">
+            </div>
+            <menu class="navbar__menu">
+                <li class="nav__item nav__item--active"><a class="nav__item__link" href="./index.html">DOMŮ</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./index.html">SLUŽBY</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./references.html">REFERENCE</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./about.html">O NÁS</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./contact.html">KONTAKT</a></li>
+            </menu>
+        </nav>
         <div class="header__body">
             <h1 class="header__title">HM Building.cz s.r.o. <span class="header__description">liberecká stavební společnost</span></h1>
         </div>
@@ -35,14 +36,14 @@
 
     <main class="main">
         <article>
-            <h2>Využijte škálu našich <span class="orange">služeb</span></h2>
-            <p>Ačkoliv provádíme především <strong>průmyslové stavby</strong>, není pro nás problém postavit Vám <strong>rodinný domek na klíč</strong>
+            <p class="services">Využijte škálu našich <span class="orange">služeb</span></p>
+            <p class="services__description">Ačkoliv provádíme především <strong>průmyslové stavby</strong>, není pro nás problém postavit Vám <strong>rodinný domek na klíč</strong>
                 , nebo jen hrubou stavbu. Nejsou nám cizí ani <strong>rekonstrukce budov</strong> a jejich 
                 údržba a to včetně okolních ploch.</p>
             
-            <article>
-                <img class="page__image" src="../media/sluzba-novostavby-1200w.jpg" alt="">
-                <div>
+            <article class="image">
+                <img class="page__image" src="../media/sluzba-novostavby-1200w.jpg" alt="skákající dělník">
+                <div class="image__text">
                     <h2>Novostavby</h2>
                     <p>Dle požadavků investora jsme schopní dodat <strong>kompletní stavbu na klíč</strong>, případně zhotovit ucelenou část. 
                         Jsme schopni zajistit také projektovou dokumentaci.</p>
@@ -50,8 +51,8 @@
                     <a href="./buildings.html" class="button">Zobrazit více</a>
                 </div>
             </article>
-            <article>
-                <img class="page__image2" src="../media/sluzba-prumyslove-stavby-1920w.jpg" alt="">
+            <article class="image">
+                <img class="page__image2" src="../media/sluzba-prumyslove-stavby-1920w.jpg" alt="jeřáby">
                 <div>
                     <h2>Průmyslové stavby</h2>
                     <p>Realizujeme <strong>průmyslové objekty ocelové konstrukce</strong>, lehké ocelové (stanového typu), z prefabrikovaných dílců atd. 
@@ -61,7 +62,7 @@
                 </div>
             </article>
             <article>
-                <img class="page__image" src="../media/sluzba-rekonstrukce-1920w.jpg" alt="">
+                <img class="page__image" src="../media/sluzba-rekonstrukce-1920w.jpg" alt="rekonstrukce domu">
                 <div>
                     <h2>Rekonstrukce domů a jiných staveb</h2>
                     <p>Provádíme veškeré práce spojené s <strong>rekonstrukcí stávajících objektů</strong>. Pro naše klienty zajišťujeme 
@@ -71,7 +72,7 @@
                 </div>
             </article>
             <article>
-                <img class="page__image2" src="../media/sluzba-komunikace-a-zpevnene-plochy-1200w.jpg" alt="">
+                <img class="page__image2" src="../media/sluzba-komunikace-a-zpevnene-plochy-1200w.jpg" alt="oprava silnice">
                 <div>
                     <h2>Komunikace a zpevněné plochy</h2>
                     <p>Komunikace a zpevněné plochy provádíme včetně <strong>zemních prací, konstrukcí podkladních</strong> a souvisejících 
@@ -96,21 +97,21 @@
             
             <div>
                 <article>
-                    <a href="./firestation.html"><img class="reference" src="../media/reference/reference-hasicska-zbrojnice-600w.jpg" alt=""></a>
+                    <a href="./firestation.html"><img class="reference" src="../media/reference/reference-hasicska-zbrojnice-600w.jpg" alt="hasičárna zvenku"></a>
                     <div class="centered_text">
                         <h2>Hasičská zbrojnice</h2>
                         <p>celková rekonstrukce</p>
                     </div>
                 </article>
                 <article>
-                    <a href="./laundry.html"><img class="reference" src="../media/reference/reference-pradelna-600w.jpg" alt=""></a>
+                    <a href="./laundry.html"><img class="reference" src="../media/reference/reference-pradelna-600w.jpg" alt="prádelna"></a>
                     <div class="centered_text">
                         <h2>Samoobslužná prádelna</h2>
                         <p>stavební úpravy a opravy</p>
                     </div>
                 </article>
                 <article>
-                    <a href="./restyl.html"><img class="reference" src="../media/reference/reference-plocha-600w.jpg" alt=""></a>
+                    <a href="./restyl.html"><img class="reference" src="../media/reference/reference-plocha-600w.jpg" alt="plocha"></a>
                     <div class="centered_text">
                         <h2>Venkovní plochy Restyl</h2>
                         <p>provedení venkovnách ploch</p>
