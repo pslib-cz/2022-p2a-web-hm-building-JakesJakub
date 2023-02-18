@@ -128,15 +128,19 @@
       .services__description {
         text-align: center;
       }
-    }
+    
     .orange{
         color: #EB6C27;
     }
 
     .image {
         display: flex;
-        margin: 5em}
-
+        margin: 5em;
+    }
+    
+    .image2 {
+        margin: 5em;
+    }
     .page__image{
         width: 50%;
         height: 17em;
@@ -158,6 +162,7 @@
 
     .page__image2{
         width: 50%;
+        float: right;
         height: 17em;
         border-radius: 0px 0px 0px 40px;
         flex: none;
@@ -335,3 +340,4 @@
         text-decoration: none;
         color: #EB6C27;
       }
+}
