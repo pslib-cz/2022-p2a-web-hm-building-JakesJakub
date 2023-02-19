@@ -37,64 +37,57 @@
         width: 150px;
     }
 
+    .hamburger{
+        display: none;
+    }
+
     .navbar__logo{
         display:flex;
     }
       
     .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1.5em 1em;
-        background: var(white);
-        width: calc(80% - 2em);
         position: absolute;
-        background-color: white;
-        margin-left: 10%;
         top: 2em;
+        max-width: 1510px;
+        width: calc(100% - 4em);
+        padding: 0;
+        align-self: center;
     }
 
     
     .navbar__menu {
-        position: absolute;
-        height: 14em;
-        top: 7em;
-        right: 1em;
-        left: 1em;
-        background-color:#EB6C27;
-        display: none;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1em;
-        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        position: unset;
+        height: auto;
+        top: auto;
+        right: auto;
+        left: auto;
+        gap: 0;
+        background-color: white;
+        margin: 0;
+        padding: 0;
     }
     
     .navbar__menu::before {
-        content: "";
-        width: 0;
-        height: 0;
-        border-left: 14px solid transparent;
-        border-right: 14px solid transparent;
-        border-bottom: 20px solid #EB6C27;
-        top: -20px;
-        right: 0.5em;
-        position: absolute;
+        display: none;
     }
     
-    .navbar__menu.visible {
-        display: flex;
-    }
     
     .nav__item {
-        list-style: none;
+        padding: 2em 1.5em;
     }
     
     .nav__item__link {
-        color: white;
+        color: black;
+        text-decoration: none;
     }
-    
-    .nav__item__link--active {
-        font-weight: 700;
+    .nav__item--active{
+        color:#EB6C27;
+    }
+
+    .nav__item--active a{
+        color:#EB6C27;
     }
 
     .header {
@@ -136,6 +129,9 @@
       .services__description {
         text-align: center;
         margin-bottom: 10em;
+        max-width: 40em;
+        margin: 0 auto;
+        margin-bottom: 10em;
       }
       .services-container {
         display: flex;
@@ -148,6 +144,7 @@
       }
       .service__img-wrapper {
         flex-basis: 50%;
+        height: 20em;
       }
       .service__description {
         flex-basis: 50%;
