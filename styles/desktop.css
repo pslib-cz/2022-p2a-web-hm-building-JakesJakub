@@ -1,6 +1,6 @@
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1281px){
     html{
-        font-size: 16px;
+        font-size: 20px;
     }
         .hamburger {
           color: black;
@@ -137,53 +137,11 @@
     }
 
 
-    /*.image {
-        display: flex;
-        margin: 5em;
-    }
-    
-    .image2 {
-        margin: 5em;
-    }*/
-    /*.page__image{
-        width: 50%;
-        height: 17em;
-        border-radius: 0px 0px 40px 0px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin-top: 3em;
-        margin-right: 5em;
-    }*/
-    /*.image__text{
-        margin-top: 4em;
-    }*/
-
     h2 {
         font-size: 2em;
         text-transform: uppercase;
     }
 
-    /*.page__image2{
-        width: 50%;
-        float: right;
-        height: 17em;
-        border-radius: 0px 0px 0px 40px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin-top: 3em;
-    }
-
-    .page__image3 {
-        width: 320px;
-        height: 200px;
-        background: url(reference-zbrojnice.jpg);
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin-top: 3em;
-    }*/
     .main {
         margin-left: 5%;
         margin-right: 5%;
