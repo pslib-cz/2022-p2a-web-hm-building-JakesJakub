@@ -341,4 +341,8 @@
         gap: 1em;
         margin-top: 3em ;
       }
+
+      .form{
+        max-width: 40%;
+      }
 }
